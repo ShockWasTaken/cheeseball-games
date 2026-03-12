@@ -1,6 +1,6 @@
 # cheeseball-games
 <--Important guide for anyone invited to work on the project-->
-Here is your full guide on how to work on the project.
+Here is your full guide on how to work on the project. PLEASE read this in the Code and not Preview section so it makes sense. Thank you.
 If you want to add games, you must first go to index.html and go to the Navigation Links section. Then, make an entry following this format:
 
 <a href="games/game(whatever number this game is).html">What you want the game to appear as in the sidebar goes here</a>
