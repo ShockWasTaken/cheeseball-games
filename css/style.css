@@ -13,7 +13,7 @@ body {
 
 /* Navigation */
 .navbar {
-    background-image: url('images/cheeseballs.jpeg');
+    background-image: url(../'images/cheeseballs.jpeg');
     background-size: cover;
     background-position: center;
     padding: 20px;
@@ -56,7 +56,7 @@ body {
 }
 
 .game-card {
-    background-image: url(images/cheeseballs.jpeg);
+    background-image: url(../images/cheeseballs.jpeg);
     border: 3px solid #ffd700;
     border-radius: 10px;
     padding: 20px;
