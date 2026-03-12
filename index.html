@@ -7,7 +7,37 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<body>
+    <!-- Side Menu Overlay -->
+    <div class="overlay" id="overlay" onclick="toggleMenu()"></div>
+
+    <!-- Side Menu -->
+    <div class="side-menu" id="sideMenu">
+        <button class="close-btn" onclick="toggleMenu()">✕</button>
+        
+        <!-- Search Bar -->
+        <form action="search.html" method="GET">
+            <input type="text" name="q" placeholder="Search games..." class="search-input">
+            <button type="submit" class="search-btn">🔍 Search</button>
+        </form>
+
+        <hr class="menu-divider">
+
+        <!-- Navigation Links -->
+        <nav class="menu-nav">
+            <a href="index.html">🏠 Home</a>
+            <a href="games/game1.html">🎮 Bloxd.io</a>
+            <a href="games/game2.html">🎮 Game 2</a>
+            <a href="games/game3.html">🎮 1v1lol</a>
+            <a href="games/game4.html">🎮 Crazy Cattle 3D</a>
+            <a href="games/game5.html">🎮 Classic Minecraft</a>
+            <a href="games/game6.html">🎮 Game 6</a>
+        </nav>
+    </div>
+
+    <!-- Navbar -->
     <nav class="navbar">
+        <button class="hamburger" onclick="toggleMenu()">☰</button>
         <h1 class="logo">🧀 Cheeseball Games</h1>
     </nav>
 
