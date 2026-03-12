@@ -1,1 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game 1 - Cheeseball Games</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="logo">🧀 Cheeseball Games</h1>
+    </nav>
 
+    <main class="container">
+        <a href="../index.html" class="back-btn">← Back to Home</a>
+        
+        <h2>Game 1</h2>
+        <p>Replace this with your game's HTML/iframe code</p>
+        
+        <!-- PASTE YOUR GAME CODE HERE -->
+        <iframe id="myFrame" src="https://classic.minecraft.net" width="100%" height="600" style="border: none; border-radius: 10px;" allowfullscreen></iframe>
+        <!-- END GAME CODE -->
+        <button onclick="toggleFullscreen()">⛶ Fullscreen</button>
+
+<script>
+  function toggleFullscreen() {
+    const iframe = document.getElementById('myFrame');
+    if (!document.fullscreenElement) {
+      iframe.requestFullscreen();
+    } else {
+      document.exitFullscreen();
+    }
+  }
+</script>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Cheeseball Games. All rights reserved.</p>
+    </footer>
+</body>
+</html>
