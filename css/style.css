@@ -54,7 +54,7 @@ body {
 }
 
 .game-card {
-    background-color: #2a2a2a;
+    background-image: url(images/cheeseballs.jpeg)
     border: 3px solid #ffd700;
     border-radius: 10px;
     padding: 20px;
