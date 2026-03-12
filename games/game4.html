@@ -28,6 +28,19 @@
           
           </iframe>
         <!-- END GAME CODE -->
+                <button onclick="toggleFullscreen()">⛶ Fullscreen</button>
+
+<script>
+  function toggleFullscreen() {
+    const iframe = document.getElementById('iframehtml5');
+    if (!document.fullscreenElement) {
+      iframe.requestFullscreen();
+    } else {
+      document.exitFullscreen();
+    }
+  }
+</script>
+
     </main>
 
     <footer>
