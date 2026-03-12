@@ -18,19 +18,21 @@
         <p>Replace this with your game's HTML/iframe code</p>
         
         <!-- PASTE YOUR GAME CODE HERE -->
-        <iframe src="https://bloxd.io" width="100%" height="600" style="border: none; border-radius: 10px;"></iframe>
+        <iframe id:"myFrame" src="https://bloxd.io" width="100%" height="600" style="border: none; border-radius: 10px;"></iframe>
         <!-- END GAME CODE -->
         <button onclick="toggleFullscreen()">⛶ Fullscreen</button>
 
 <script>
   function toggleFullscreen() {
+    const iframe = document.getElementById('myFrame');
     if (!document.fullscreenElement) {
-      document.documentElement.requestFullscreen();
+      iframe.requestFullscreen();
     } else {
       document.exitFullscreen();
     }
   }
 </script>
+
     </main>
 
     <footer>
